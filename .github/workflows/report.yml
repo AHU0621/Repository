@@ -27,7 +27,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       
-    - name: Set up Python 3.8
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
@@ -41,6 +41,4 @@ jobs:
         python -m pip install requests -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
         python -m pip install fake_useragent -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
         python -m pip install eventlet -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
-        python -m pip install random -i https://pypi.tuna.tsinghua.edu.cn/simple/ --trusted-host pypi.tuna.tsing.edu.cn
-        python -m pip install time -i https://pypi.tuna.tsinghua.edu.cn/simple/ --trusted-host pypi.tuna.tsing.edu.cn
         python autorefresh.py  
