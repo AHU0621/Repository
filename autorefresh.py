@@ -20,7 +20,7 @@ url_list = [
             # "http://tougao.12371.cn/gaojian.php?tid=3789574",   # 以“每日三省”提“政治三力”
             # "http://tougao.12371.cn/gaojian.php?tid=3795495",   # @党员 权利的正确行使方式
             # "http://tougao.12371.cn/gaojian.php?tid=3807351",   # 用党史“活水”滋润发展“根须”
-            http://tougao.12371.cn/gaojian.php?tid=3821673, # 让脱贫攻坚的“阳光”照亮乡村振兴的征程
+            "http://tougao.12371.cn/gaojian.php?tid=3821673", # 让脱贫攻坚的“阳光”照亮乡村振兴的征程
             ]
 
 times = 250   # 需要的次数
