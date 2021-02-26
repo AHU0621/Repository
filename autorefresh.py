@@ -22,7 +22,7 @@ url_list = [
             # "http://tougao.12371.cn/gaojian.php?tid=3807351",   # 用党史“活水”滋润发展“根须”
             ]
 
-times = 500   # 需要的次数
+times = 150   # 需要的次数
 
 # ua = UserAgent(path=r'F:\Program Files\Python脚本\autorefresh\ua.json')   # 本地获取
 ua = UserAgent()  # 网络获取伪装头
