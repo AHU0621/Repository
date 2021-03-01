@@ -8,8 +8,8 @@ on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: '0 0,4,8,12,16,20 * * *'
+# schedule:
+# - cron: '0 0,4,8,12,16,20 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -41,4 +41,4 @@ jobs:
         python -m pip install requests -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
         python -m pip install fake_useragent -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
         python -m pip install eventlet -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
-        python autorefresh.py  
+# python autorefresh.py  
