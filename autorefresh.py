@@ -11,21 +11,12 @@ from fake_useragent import UserAgent    # 伪装头
 import eventlet                         # 导入 eventlet 这个模块,用于跳出代码超时问题
 
 url_list = [
-            # "http://tougao.12371.cn/gaojian.php?tid=3761117",   # 选调生萌新的基层“山海情”
-            # "http://tougao.12371.cn/gaojian.php?tid=3761117", # 选调生萌新的基层“山海情”
-            # "http://tougao.12371.cn/gaojian.php?tid=3761117", # 选调生萌新的基层“山海情”
-            # "http://tougao.12371.cn/gaojian.php?tid=3784973",   # 治基层“三病”安民众之心
-            # "http://tougao.12371.cn/gaojian.php?tid=3777755", # 修炼“志、魂、胆” 反腐倡廉一直在路上
-            # "http://tougao.12371.cn/gaojian.php?tid=3777755",
-            # "http://tougao.12371.cn/gaojian.php?tid=3789574",   # 以“每日三省”提“政治三力”
-            # "http://tougao.12371.cn/gaojian.php?tid=3795495",   # @党员 权利的正确行使方式
-            # "http://tougao.12371.cn/gaojian.php?tid=3807351",   # 用党史“活水”滋润发展“根须”
-            "http://tougao.12371.cn/gaojian.php?tid=3821673", # 让脱贫攻坚的“阳光”照亮乡村振兴的征程
+            # "http://tougao.12371.cn/gaojian.php?tid=3821673", 
             ]
 
 times = 250   # 需要的次数
 
-# ua = UserAgent(path=r'F:\Program Files\Python脚本\autorefresh\ua.json')   # 本地获取
+# ua = UserAgent(path=r'Your path\ua.json')   # 本地获取
 ua = UserAgent()  # 网络获取伪装头
 proxy_list = ['221.122.91.74:9401', '221.122.91.60:80', '58.220.95.90:9401', '58.220.95.86:9401', '221.122.91.61:80',
               '58.220.95.116:10122', '58.220.95.42:10174', '220.174.236.211:8091', '221.122.91.74:9401',
