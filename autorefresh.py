@@ -11,10 +11,10 @@ from fake_useragent import UserAgent    # 伪装头
 import eventlet                         # 导入 eventlet 这个模块,用于跳出代码超时问题
 
 url_list = [
-            # "http://tougao.12371.cn/gaojian.php?tid=3821673", 
+            "http://tougao.12371.cn/gaojian.php?tid=3839925", 
             ]
 
-times = 250   # 需要的次数
+times = 150   # 需要的次数
 
 # ua = UserAgent(path=r'Your path\ua.json')   # 本地获取
 ua = UserAgent()  # 网络获取伪装头
