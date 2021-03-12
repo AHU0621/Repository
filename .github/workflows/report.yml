@@ -41,4 +41,4 @@ jobs:
         python -m pip install requests -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
         python -m pip install fake_useragent -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
         python -m pip install eventlet -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
-        python ip.py
+        python IP.py
